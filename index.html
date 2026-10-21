@@ -36,10 +36,11 @@ a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
 header.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:84px;gap:16px}
 .logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.02em;color:var(--ink)}
 .logo:hover{text-decoration:none}
-.logo img{height:38px;width:auto;display:block}
+.logo img{height:54px;width:auto;display:block}
+@media (max-width:560px){header.top .wrap{height:72px}.logo img{height:44px}}
 .logo .dark{display:none}
 @media (prefers-color-scheme: dark){.logo .light{display:none}.logo .dark{display:block}}
 nav a{color:var(--muted);margin-left:22px;font-size:15px}
