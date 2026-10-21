@@ -4,4 +4,4 @@ The Emflo Advisory website: one static page (`index.html`) with the brand assets
 
 - Edit `index.html`, then check it on a phone-sized window and a desktop.
 - Hosting: GitHub Pages from this repository's `main` branch, custom domain `emfloadvisory.com` (`CNAME`).
-- Before launch: replace the bio placeholder in About and the `BOOKING_LINK` in Contact.
+- Booking: Google Calendar appointment page (30 minutes).
